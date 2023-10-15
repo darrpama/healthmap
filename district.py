@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 import matplotlib.pyplot as plt
-import joblib
+import requests
 
 
 class Model:
@@ -23,8 +23,20 @@ class Model:
     def load_data(self):
         pass
 
-    def prepare_data(self):
-        pass
+    def prepare_data(self, json_data):
+        X = []
+        y = []
+        for city in json_data:
+            for district in city['districts']:
+                features = [
+                    district['area'],
+                    district['total_positive_amount'],
+                    district['total_negative_amount'],
+                    district['edu_negative_amount']
+                ]
+                X.append(features)
+        
+        return X, y
 
     def train_model(self, X, y):
 
@@ -39,9 +51,6 @@ class Model:
         self.model = LinearRegression()
         self.model.fit(X_train, y_train)
 
-        # Save the trained model
-        joblib.dump(self.model, 'trained_model.pkl')
-
         # Predict on the test set
         y_pred = self.model.predict(X_test)
 
@@ -51,9 +60,33 @@ class Model:
         print("Mean Squared Error:", mse)
         print("R-squared:", r_squared)
 
-    def load_model(self, model_path):
-        # Load the saved model
-        self.model = joblib.load(model_path)
+    def save_model(self, file_path):
+        model_params = {
+            'coef_': self.model.coef_.tolist(),
+            'intercept_': self.model.intercept_.tolist(),
+            'scaler_params': {
+                'scale_': self.scaler.scale_.tolist(),
+                'min_': self.scaler.min_.tolist(),
+                'data_min_': self.scaler.data_min_.tolist(),
+                'data_max_': self.scaler.data_max_.tolist(),
+                'data_range_': self.scaler.data_range_.tolist(),
+            }
+        }
+        with open(file_path, 'w') as file:
+            json.dump(model_params, file)
+
+    def load_model(self, file_path):
+        with open(file_path, 'r') as file:
+            model_params = json.load(file)
+        self.model = LinearRegression()
+        self.model.coef_ = np.array(model_params['coef_'])
+        self.model.intercept_ = np.array(model_params['intercept_'])
+        self.scaler = MinMaxScaler()
+        self.scaler.scale_ = np.array(model_params['scaler_params']['scale_'])
+        self.scaler.min_ = np.array(model_params['scaler_params']['min_'])
+        self.scaler.data_min_ = np.array(model_params['scaler_params']['data_min_'])
+        self.scaler.data_max_ = np.array(model_params['scaler_params']['data_max_'])
+        self.scaler.data_range_ = np.array(model_params['scaler_params']['data_range_'])
 
     def predict(self, X):
         # Normalize the features using the stored scaler
@@ -87,20 +120,17 @@ class Model:
 # Create an instance of the Model class
 model = Model()
 
-# Features
-X = np.array([[100, 5, 10, 2],
-              [200, 10, 20, 4],
-              [150, 7, 15, 3],
-              [120, 5, 10, 2],
-              [200, 10, 20, 4],
-              [151, 7, 15, 3],
-              [100, 5, 10, 2],
-              [200, 10, 20, 4],
-              [161, 7, 15, 3],
-              [102, 5, 10, 2],
-              [207, 10, 20, 4],
-              [158, 7, 15, 3]])
+# Make a GET request to the API endpoint
+response = requests.get('api/feature/district')
+
+# Parse the JSON response
+json_data = response.json()
+
+# Prepare the data and extract the features X
+X = model.prepare_data(json_data)
+
 y = np.array([0.8, 0.6, 0.9, 0.8, 0.6, 0.9, 0.8, 0.6, 0.9, 0.8, 0.6, 0.9])  # Target variable
+
 # Train the model
 model.train_model(X, y)
 
