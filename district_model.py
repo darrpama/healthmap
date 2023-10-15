@@ -163,7 +163,7 @@ model_params = {
 model_params_json = json.dumps(model_params)
 
 # Make a POST request to the API endpoint to send the model coefficients
-post_response = requests.post('api/model/coefficients', data=model_params_json)
+post_response = requests.post('api/district_model/coefficients', data=model_params_json)
 
 # Check the response status code
 if post_response.status_code == 200:

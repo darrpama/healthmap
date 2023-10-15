@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import requests
 import json
 
-
 class Model:
     def __init__(self):
         self.model = None
@@ -15,8 +14,8 @@ class Model:
     def calculate_positive_density(self, number_of_positive, area):
         return number_of_positive / area
 
-    def calculate_negative_density(self, number_of_positive, area):
-        return number_of_positive / area
+    def calculate_negative_density(self, number_of_negative, area):
+        return number_of_negative / area
 
     def calculate_equability(self, positive_density, negative_density):
         return positive_density - negative_density
@@ -30,26 +29,30 @@ class Model:
         positive_weight = 0;
         negative_weight = 0;
         for city in json_data:
-            for district in city['districts']:
-                positive_density = self.calculate_positive_density(district['total_positive_amount'], district['area'])
-                negative_density = self.calculate_negative_density(district['total_negative_amount'], district['area'])
-                features = [
-                    positive_density,
-                    negative_density,
-                    positive_density - negative_density,
-                    district['edu_negative_amount']
-                ]
-                X.append(features)
-                if (district['total_positive_amount'] - district['total_negative_amount'] >= district['total_negative_amount'] * 0.5):
-                    positive_weight = 0.6
-                if (district['edu_negative_amount'] > 0):
-                    negative_weight = 0.4
-                y.append(district['total_positive_amount'] * (1 + positive_weight) - district['total_negative_amount'] * (1 + negative_weight))
-        
+            positive_density = self.calculate_positive_density(city['total_positive_amount'], city['area'])
+            negative_density = self.calculate_negative_density(city['total_negative_amount'], city['area'])
+            equability = self.calculate_equability(positive_density, negative_density)
+            
+            features = [
+                positive_density,
+                negative_density,
+                equability,
+                city['positive_total_districts'],
+                city['negative_total_districts'],
+                city['park_negative_amount']
+            ]
+            X.append(features)
+            
+            if city['total_positive_amount'] >= city['total_negative_amount']:
+                positive_weight = 0.7
+            else:
+                negative_weight = 0.3
+            
+            y.append(city['positive_total_districts'] * (1 + positive_weight) - city['negative_total_districts'] * (1 + negative_weight))
+
         return X, y
 
     def train_model(self, X, y):
-
         # Normalize the features using MinMaxScaler
         self.scaler = MinMaxScaler()
         X_normalized = self.scaler.fit_transform(X)
@@ -101,7 +104,6 @@ class Model:
     def predict(self, X):
         # Normalize the features using the stored scaler
         X_normalized = self.scaler.transform(X)
-
         # Predict using the loaded model
         y_pred = self.model.predict(X_normalized)
         return y_pred
@@ -109,7 +111,6 @@ class Model:
     def plot_evaluation(self, X_test, y_test):
         # Predict on the test set
         y_pred = self.model.predict(X_test)
-
         # Plot the predicted values against the true values
         plt.scatter(y_test, y_pred)
         plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], 'k--', lw=2)
@@ -117,7 +118,6 @@ class Model:
         plt.ylabel('Predicted Values')
         plt.title('Model Evaluation')
         plt.show()
-
         # Plot the residuals
         residuals = y_test - y_pred
         plt.scatter(y_pred, residuals)
@@ -131,7 +131,7 @@ class Model:
 model = Model()
 
 # Make a GET request to the API endpoint
-response = requests.get('api/feature/district')
+response = requests.get('api/feature/city')
 
 # Parse the JSON response
 json_data = response.json()
@@ -142,17 +142,17 @@ X, y = model.prepare_data(json_data)
 # Train the model
 model.train_model(X, y)
 
-
 # Save the trained model coefficients to JSON
 model_params = {
-    'coef_': model.model.coef_.tolist(),
-    'intercept_': model.model.intercept_.tolist(),
+    'coef': model.model.coef_.tolist(),
+    'intercept': model.model.intercept_.tolist(),
+    'is_positive': model.is_positive,
     'scaler_params': {
-        'scale_': model.scaler.scale_.tolist(),
-        'min_': model.scaler.min_.tolist(),
-        'data_min_': model.scaler.data_min_.tolist(),
-        'data_max_': model.scaler.data_max_.tolist(),
-        'data_range_': model.scaler.data_range_.tolist(),
+        'scale': model.scaler.scale_.tolist(),
+        'min': model.scaler.min_.tolist(),
+        'data_min': model.scaler.data_min_.tolist(),
+        'data_max': model.scaler.data_max_.tolist(),
+        'data_range': model.scaler.data_range_.tolist(),
     }
 }
 
@@ -160,7 +160,7 @@ model_params = {
 model_params_json = json.dumps(model_params)
 
 # Make a POST request to the API endpoint to send the model coefficients
-post_response = requests.post('api/model/coefficients', data=model_params_json)
+post_response = requests.post('api/city_model/coefficients', data=model_params_json)
 
 # Check the response status code
 if post_response.status_code == 200:
