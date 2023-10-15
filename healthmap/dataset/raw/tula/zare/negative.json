@@ -1,0 +1,308 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-10-14T10:21:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1819870923",
+        "name": "Магазин",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6088855,
+          54.2097545
+        ]
+      },
+      "id": "node/1819870923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1819921509",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6124018,
+          54.2131269
+        ]
+      },
+      "id": "node/1819921509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3901022180",
+        "amenity": "fast_food",
+        "brand": "Вкусно — и точка",
+        "brand:en": "Vkusno i tochka",
+        "brand:ru": "Вкусно — и точка",
+        "brand:wikidata": "Q112406961",
+        "brand:wikipedia": "en:McDonald's",
+        "contact:email": "info@ru.mcd.com",
+        "contact:facebook": "https://www.facebook.com/mcdonaldsrussia",
+        "contact:instagram": "https://www.instagram.com/mcdonalds_rus/",
+        "contact:phone": "+7 4872 476379",
+        "contact:vk": "https://vk.com/mcdonaldsrussia",
+        "contact:website": "https://mcdonalds.ru",
+        "contact:youtube": "https://www.youtube.com/user/McDonaldsRussia",
+        "cuisine": "burger",
+        "diet:vegetarian": "no",
+        "int_name": "McDonald's",
+        "name": "Вкусно — и точка",
+        "name:en": "Vkusno i tochka",
+        "name:ru": "Вкусно — и точка",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6205392,
+          54.2105263
+        ]
+      },
+      "id": "node/3901022180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3953606806",
+        "name": "Табаковъ",
+        "shop": "tobacco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6186249,
+          54.2044326
+        ]
+      },
+      "id": "node/3953606806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4349060298",
+        "amenity": "fast_food",
+        "name": "Фастфуд"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6073277,
+          54.2156343
+        ]
+      },
+      "id": "node/4349060298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4349060307",
+        "name": "Градус",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6175888,
+          54.2186219
+        ]
+      },
+      "id": "node/4349060307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771165921",
+        "amenity": "fast_food",
+        "name": "Чебуречная \"Орбита\"",
+        "name:ru": "Чебуречная \"Орбита\"",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa,Su 10:00-20:00",
+        "phone": "+7 4872 472722"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6194751,
+          54.2076428
+        ]
+      },
+      "id": "node/4771165921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5084245486",
+        "amenity": "fast_food",
+        "fast_food": "cafeteria",
+        "level": "0",
+        "name": "Вкуснов",
+        "opening_hours": "09:00-22:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6249173,
+          54.2169371
+        ]
+      },
+      "id": "node/5084245486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6400238065",
+        "addr:city": "Тула",
+        "addr:housenumber": "3Б",
+        "addr:street": "улица Максима Горького",
+        "amenity": "fast_food",
+        "name": "Донер",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6220856,
+          54.2131844
+        ]
+      },
+      "id": "node/6400238065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6416093625",
+        "addr:city": "Тула",
+        "addr:housenumber": "45",
+        "addr:street": "Комсомольская улица",
+        "amenity": "fast_food",
+        "building": "kiosk",
+        "name": "Самая вкусная шаурма",
+        "opening_hours": "PH,Mo-Su 00:00-24:00",
+        "phone": "+7 902 9059079",
+        "website": "http://самая-вкусная-шаурма.рф/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6092919,
+          54.209889
+        ]
+      },
+      "id": "node/6416093625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647008932",
+        "name": "Градус",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6093715,
+          54.2077428
+        ]
+      },
+      "id": "node/6647008932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647008934",
+        "brand": "Красное&Белое",
+        "brand:en": "Red&White",
+        "brand:wikidata": "Q24933790",
+        "brand:wikipedia": "ru:Красное & Белое",
+        "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+        "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+        "contact:ok": "https://ok.ru/krasnoebeloe",
+        "contact:telegram": "+7 922 7033000",
+        "contact:viber": "+7 922 7033000",
+        "contact:vk": "https://vk.com/krasnoebeloe",
+        "contact:website": "https://krasnoeibeloe.ru",
+        "contact:whatsapp": "+7 922 7033000",
+        "name": "Красное&Белое",
+        "name:en": "Red&White",
+        "name:ru": "Красное&Белое",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6105115,
+          54.20756
+        ]
+      },
+      "id": "node/6647008934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6820031245",
+        "name": "Градус",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6166746,
+          54.2142988
+        ]
+      },
+      "id": "node/6820031245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10685742660",
+        "addr:city": "Тула",
+        "addr:housenumber": "217 к1",
+        "addr:postcode": "300022",
+        "addr:street": "Октябрьская улица",
+        "brand": "Красное&Белое",
+        "brand:en": "Red&White",
+        "brand:wikidata": "Q24933790",
+        "brand:wikipedia": "ru:Красное & Белое",
+        "contact:facebook": "krasnoe.beloe",
+        "contact:instagram": "krasnoebeloe",
+        "contact:ok": "krasnoebeloe",
+        "contact:telegram": "+7 922 7033000",
+        "contact:viber": "+7 922 7033000",
+        "contact:vk": "krasnoebeloe",
+        "contact:website": "https://krasnoeibeloe.ru",
+        "contact:whatsapp": "+7 922 7033000",
+        "drive_through": "no",
+        "fixme": "add proper payment tags:  payment:сбп(сеть_быстрых_платежей) = yes",
+        "name": "Красное&Белое",
+        "name:en": "Red&White",
+        "name:ru": "Красное&Белое",
+        "opening_hours": "09:00-22:05",
+        "payment:mastercard": "yes",
+        "payment:mir": "yes",
+        "payment:visa": "yes",
+        "phone": "+7‒922‒703‒30‒00 автоинформатор: круглосуточно",
+        "shop": "alcohol",
+        "website": "krasnoeibeloe.ru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6244363,
+          54.233992
+        ]
+      },
+      "id": "node/10685742660"
+    }
+  ]
+}

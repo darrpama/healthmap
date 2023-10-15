@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-10-14T16:38:37Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47084868",
+        "amenity": "pub",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.4648044,
+              53.4768906
+            ],
+            [
+              49.4649838,
+              53.4768674
+            ],
+            [
+              49.4650248,
+              53.4769793
+            ],
+            [
+              49.4648453,
+              53.4770025
+            ],
+            [
+              49.4648044,
+              53.4768906
+            ]
+          ]
+        ]
+      },
+      "id": "way/47084868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47098083",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Айсберг"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.4587423,
+              53.4782275
+            ],
+            [
+              49.4587305,
+              53.4781927
+            ],
+            [
+              49.4587135,
+              53.4781948
+            ],
+            [
+              49.4586859,
+              53.4781132
+            ],
+            [
+              49.4588331,
+              53.4780956
+            ],
+            [
+              49.4588725,
+              53.4782119
+            ],
+            [
+              49.4587423,
+              53.4782275
+            ]
+          ]
+        ]
+      },
+      "id": "way/47098083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136124790",
+        "addr:street": "Коммунистическая улица",
+        "building": "yes",
+        "name": "Пиво",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.4782706,
+              53.4733105
+            ],
+            [
+              49.478368,
+              53.4732082
+            ],
+            [
+              49.4785467,
+              53.4732685
+            ],
+            [
+              49.4784494,
+              53.4733707
+            ],
+            [
+              49.4782706,
+              53.4733105
+            ]
+          ]
+        ]
+      },
+      "id": "way/136124790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/514992854",
+        "addr:city": "Тольятти",
+        "addr:housenumber": "25А",
+        "addr:street": "улица Громовой",
+        "amenity": "fast_food",
+        "brand": "Вкусно — и точка",
+        "brand:en": "Vkusno i tochka",
+        "brand:ru": "Вкусно — и точка",
+        "brand:wikidata": "Q112406961",
+        "brand:wikipedia": "en:McDonald’s",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:facebook": "https://www.facebook.com/mcdonaldsrussia",
+        "contact:phone": "+7 848 2692901",
+        "contact:website": "https://mcdonalds.ru",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Вкусно — и точка",
+        "name:en": "Vkusno i tochka",
+        "name:ru": "Вкусно — и точка",
+        "operator": "Макдоналдс",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.4756333,
+              53.4872691
+            ],
+            [
+              49.4756327,
+              53.4872212
+            ],
+            [
+              49.4756054,
+              53.4872214
+            ],
+            [
+              49.4756029,
+              53.4870274
+            ],
+            [
+              49.4756203,
+              53.4870056
+            ],
+            [
+              49.4758266,
+              53.4870047
+            ],
+            [
+              49.4758299,
+              53.4872683
+            ],
+            [
+              49.4756333,
+              53.4872691
+            ]
+          ]
+        ]
+      },
+      "id": "way/514992854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600577440",
+        "amenity": "pub",
+        "name": "Перекресток"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.4582971,
+          53.4763672
+        ]
+      },
+      "id": "node/600577440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600577644",
+        "amenity": "pub",
+        "name": "Т-34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.4636293,
+          53.4775687
+        ]
+      },
+      "id": "node/600577644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4391627989",
+        "name": "Пеликан",
+        "name:ru": "Пеликан",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.468478,
+          53.4744314
+        ]
+      },
+      "id": "node/4391627989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5564858215",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.4535017,
+          53.4769626
+        ]
+      },
+      "id": "node/5564858215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10576464427",
+        "contact:email": "damianpivovar@yandex.ru",
+        "contact:phone": "+7 927 2606037",
+        "contact:website": "https://damian-pivovar.ru/",
+        "name": "Дамиан",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.4858175,
+          53.4836671
+        ]
+      },
+      "id": "node/10576464427"
+    }
+  ]
+}

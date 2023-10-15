@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Тула",
+        "slug": "tula",
+        "area": 145.8,
+        "logo": "/tula.png",
+        "districts": [
+            {
+                "name": "город",
+                "slug": "gorod",
+                "area": "145.8"
+            },
+            {
+                "name": "Зареченский",
+                "slug": "zare",
+                "area": "33.49"
+            },
+            {
+                "name": "Привокзальный",
+                "slug": "priv",
+                "area": "40.05"
+            },
+            {
+                "name": "Пролетарский",
+                "slug": "prol",
+                "area": "58.1"
+            },
+            {
+                "name": "Советский",
+                "slug": "sove",
+                "area": "0.72"
+            },
+            {
+                "name": "Центральный",
+                "slug": "cent",
+                "area": "39.41"
+            }
+        ]
+    },
+    {
+        "name": "Екатеринбург",
+        "slug": "ekaterinburg",
+        "area": 1112,
+        "logo": "/ekb.svg",
+        "districts": [
+            {
+                "name": "город",
+                "slug": "gorod",
+                "area": "1112"
+            },
+            {
+                "name": "Академический",
+                "slug": "acad",
+                "area": "46.01"
+            },
+            {
+                "name": "Верх-Исетский",
+                "slug": "verh",
+                "area": "219.79"
+            },
+            {
+                "name": "Железнодорожный",
+                "slug": "jele",
+                "area": "125.65"
+            },
+            {
+                "name": "Кировский",
+                "slug": "kiro",
+                "area": "86.25"
+            },
+            {
+                "name": "Ленинский",
+                "slug": "leni",
+                "area": "22.19"
+            },
+            {
+                "name": "Октябрьский",
+                "slug": "okty",
+                "area": "158.6"
+            },
+            {
+                "name": "Орджоникидзевский",
+                "slug": "ordj",
+                "area": "99.3"
+            },
+            {
+                "name": "Чкаловский",
+                "slug": "chka",
+                "area": "389.81"
+            }
+        ]
+    },
+    {
+        "name": "Тольятти",
+        "slug": "togliatti",
+        "area": 314.8,
+        "logo": "/tolg.svg",
+        "districts": [
+            {
+                "name": "город",
+                "slug": "gorod",
+                "area": "314.8"
+            },
+            {
+                "name": "Автозаводский",
+                "slug": "avto",
+                "area": "88.7"
+            },
+            {
+                "name": "Комсомольский",
+                "slug": "koms",
+                "area": "67"
+            },
+            {
+                "name": "Центральный",
+                "slug": "cent",
+                "area": "129.1"
+            }
+        ]
+    }
+]

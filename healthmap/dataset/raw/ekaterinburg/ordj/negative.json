@@ -1,0 +1,2217 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-10-14T20:48:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98229250",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Фауст"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.5845668,
+              56.8930684
+            ],
+            [
+              60.5845903,
+              56.8930871
+            ],
+            [
+              60.5844675,
+              56.8931331
+            ],
+            [
+              60.584444,
+              56.8931144
+            ],
+            [
+              60.5845668,
+              56.8930684
+            ]
+          ]
+        ]
+      },
+      "id": "way/98229250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/152243604",
+        "amenity": "fast_food",
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.5917145,
+              56.9093962
+            ],
+            [
+              60.5918147,
+              56.9093563
+            ],
+            [
+              60.5919796,
+              56.9094796
+            ],
+            [
+              60.5918795,
+              56.9095195
+            ],
+            [
+              60.5917145,
+              56.9093962
+            ]
+          ]
+        ]
+      },
+      "id": "way/152243604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/187764123",
+        "amenity": "fast_food",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.625143,
+              56.8964067
+            ],
+            [
+              60.6250448,
+              56.8963712
+            ],
+            [
+              60.6252204,
+              56.8962262
+            ],
+            [
+              60.6253187,
+              56.8962616
+            ],
+            [
+              60.625143,
+              56.8964067
+            ]
+          ]
+        ]
+      },
+      "id": "way/187764123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/367933589",
+        "brand": "Красное&Белое",
+        "brand:en": "Red&White",
+        "brand:ru": "Красное&Белое",
+        "brand:wikidata": "Q24933790",
+        "building": "yes",
+        "name": "Красное&Белое",
+        "name:en": "Red&White",
+        "name:ru": "Красное&Белое",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.5850976,
+              56.8850517
+            ],
+            [
+              60.5848982,
+              56.8850357
+            ],
+            [
+              60.5849104,
+              56.88499
+            ],
+            [
+              60.5848985,
+              56.884989
+            ],
+            [
+              60.5849043,
+              56.8849676
+            ],
+            [
+              60.5849141,
+              56.8849684
+            ],
+            [
+              60.5849302,
+              56.8849083
+            ],
+            [
+              60.5851318,
+              56.8849245
+            ],
+            [
+              60.5850976,
+              56.8850517
+            ]
+          ]
+        ]
+      },
+      "id": "way/367933589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/446061062",
+        "amenity": "fast_food",
+        "indoor_seating": "yes",
+        "name": "Чудо Печка",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5917306,
+          56.8867676
+        ]
+      },
+      "id": "node/446061062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/514589750",
+        "name": "Красное & Белое",
+        "opening_hours": "PH,Mo-Su 09:00-22:05",
+        "shop": "beverages"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5966906,
+          56.8975201
+        ]
+      },
+      "id": "node/514589750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663885491",
+        "addr:housenumber": "77",
+        "addr:street": "улица Старых Большевиков",
+        "amenity": "bar",
+        "cuisine": "russian",
+        "internet_access": "wlan",
+        "name": "Лукоморье",
+        "opening_hours": "Mo-Th 12:00-23:00; Fr 12:00-02:00; Sa 13:00-02:00; Su 13:00-23:00",
+        "phone": "+73433720201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6201701,
+          56.8989267
+        ]
+      },
+      "id": "node/663885491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1020122659",
+        "amenity": "fast_food",
+        "name": "Столовая колледжа",
+        "name:en": "College canteen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6155481,
+          56.8906685
+        ]
+      },
+      "id": "node/1020122659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1028316496",
+        "amenity": "fast_food",
+        "name": "Алекс"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6111704,
+          56.9129747
+        ]
+      },
+      "id": "node/1028316496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1167757181",
+        "alt_name": "Пицца Мия",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Pizza Mia",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr,Sa 10:00-23:00; Su 11:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5914259,
+          56.8877436
+        ]
+      },
+      "id": "node/1167757181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1233450981",
+        "amenity": "fast_food",
+        "name": "Столовая"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6010749,
+          56.8860379
+        ]
+      },
+      "id": "node/1233450981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1263175732",
+        "amenity": "fast_food",
+        "name": "Столовая"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6101315,
+          56.9018489
+        ]
+      },
+      "id": "node/1263175732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1284550300",
+        "amenity": "fast_food",
+        "name": "Столовая"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5902011,
+          56.8851969
+        ]
+      },
+      "id": "node/1284550300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1289260090",
+        "name": "Семь пятниц",
+        "name:ru": "Семь пятниц",
+        "shop": "alcohol",
+        "website": "http://7пятниц.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5969643,
+          56.8881516
+        ]
+      },
+      "id": "node/1289260090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1289260103",
+        "amenity": "bar",
+        "name": "Неолит"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6012144,
+          56.8909948
+        ]
+      },
+      "id": "node/1289260103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1303519869",
+        "amenity": "fast_food",
+        "name": "Дон"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.570387,
+          56.8906783
+        ]
+      },
+      "id": "node/1303519869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1327780230",
+        "amenity": "fast_food",
+        "name": "Суши"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6147456,
+          56.9014752
+        ]
+      },
+      "id": "node/1327780230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1603749911",
+        "amenity": "fast_food",
+        "internet_access": "wlan",
+        "name": "Pizza Mia",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6145656,
+          56.906337
+        ]
+      },
+      "id": "node/1603749911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1650614544",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5961535,
+          56.8859787
+        ]
+      },
+      "id": "node/1650614544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1870591013",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5945479,
+          56.8881927
+        ]
+      },
+      "id": "node/1870591013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2079487926",
+        "addr:country": "RU",
+        "alt_name": "Сабвей",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "int_name": "Subway",
+        "name": "Subway",
+        "name:de": "Subway",
+        "name:en": "Subway",
+        "name:ru": "Сабвэй",
+        "takeaway": "yes",
+        "website": "https://www.subway.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6145741,
+          56.9062711
+        ]
+      },
+      "id": "node/2079487926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2149950767",
+        "name": "Семь пятниц",
+        "name:ru": "Семь пятниц",
+        "shop": "alcohol",
+        "website": "http://7пятниц.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6155947,
+          56.9005448
+        ]
+      },
+      "id": "node/2149950767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2325075864",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6669492,
+          56.9565053
+        ]
+      },
+      "id": "node/2325075864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2330270286",
+        "amenity": "fast_food",
+        "name": "Сушимак"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6290945,
+          56.8918433
+        ]
+      },
+      "id": "node/2330270286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2843622023",
+        "amenity": "fast_food",
+        "name": "SubWay",
+        "operator": "Subway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5850317,
+          56.9040144
+        ]
+      },
+      "id": "node/2843622023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2843630530",
+        "amenity": "fast_food",
+        "name": "Сыто место"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.57037,
+          56.8923567
+        ]
+      },
+      "id": "node/2843630530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2857538633",
+        "amenity": "fast_food",
+        "name": "Хинкальная №1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6136344,
+          56.9298352
+        ]
+      },
+      "id": "node/2857538633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3096892280",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5739285,
+          56.8910026
+        ]
+      },
+      "id": "node/3096892280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3103319348",
+        "drink": "wine",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5920725,
+          56.8881344
+        ]
+      },
+      "id": "node/3103319348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3202549927",
+        "amenity": "fast_food",
+        "brand": "Макдоналдс",
+        "brand:wikipedia": "en:McDonald’s",
+        "contact:facebook": "https://www.facebook.com/mcdonaldsrussia",
+        "contact:phone": "+7 343 2356524",
+        "contact:website": "https://mcdonalds.ru",
+        "cuisine": "burger",
+        "int_name": "McDonald's",
+        "name": "Макдоналдс",
+        "name:en": "McDonald's",
+        "name:ru": "Макдоналдс"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6127082,
+          56.8884019
+        ]
+      },
+      "id": "node/3202549927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3220650266",
+        "name": "Семь пятниц",
+        "name:ru": "Семь пятниц",
+        "shop": "alcohol",
+        "website": "http://7пятниц.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6224813,
+          56.897537
+        ]
+      },
+      "id": "node/3220650266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3250044475",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "drink:beer": "draught",
+        "name": "Пив&Ко",
+        "opening_hours": "Mo-Su 8:30-23:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6214807,
+          56.9016612
+        ]
+      },
+      "id": "node/3250044475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3263079973",
+        "name": "Семь пятниц",
+        "name:ru": "Семь пятниц",
+        "shop": "alcohol",
+        "website": "http://7пятниц.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6061718,
+          56.895669
+        ]
+      },
+      "id": "node/3263079973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3298299201",
+        "brand": "Бристоль",
+        "brand:wikidata": "Q59155583",
+        "brand:wikipedia": "ru:Бристоль (сеть магазинов)",
+        "name": "Бристоль",
+        "name:en": "Бристоль",
+        "name:ru": "Бристоль",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "shop": "alcohol",
+        "website": "https://bristol.ru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6378526,
+          56.8918232
+        ]
+      },
+      "id": "node/3298299201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3536403877",
+        "amenity": "fast_food",
+        "fast_food": "cafeteria",
+        "name": "цибус арт"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6354438,
+          56.8920728
+        ]
+      },
+      "id": "node/3536403877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548991319",
+        "name": "Темное светлое",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5858464,
+          56.9045744
+        ]
+      },
+      "id": "node/3548991319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3720649484",
+        "amenity": "fast_food",
+        "name": "Столовая",
+        "note": "с 10 до 16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5666561,
+          56.8716687
+        ]
+      },
+      "id": "node/3720649484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891447546",
+        "amenity": "fast_food",
+        "contact:email": "marketing@ekb.food-master.ru",
+        "contact:phone": "+7 343 3857307",
+        "contact:vk": "https://vk.com/vilkalozhka",
+        "contact:website": "https://vilka-lozhka.com/",
+        "name": "Вилка-ложка",
+        "opening_hours": "Mo-Fr 08:00-22:00;Sa-Su 09:00-21:00",
+        "operator": "Вилка-Ложка"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6147544,
+          56.8875518
+        ]
+      },
+      "id": "node/3891447546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4089502198",
+        "name": "BeerMir",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6041854,
+          56.8941414
+        ]
+      },
+      "id": "node/4089502198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194568189",
+        "name": "Beer hunter",
+        "opening_hours": "PH,Mo-Su 10:00-23:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6084019,
+          56.8982242
+        ]
+      },
+      "id": "node/4194568189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4218793793",
+        "amenity": "bar",
+        "name": "Неон"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5908802,
+          56.886439
+        ]
+      },
+      "id": "node/4218793793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4227724854",
+        "brand": "Красное & Белое",
+        "brand:en": "Red&White",
+        "brand:wikidata": "Q24933790",
+        "brand:wikipedia": "en:Krasnoe & Beloe",
+        "name": "Красное & Белое",
+        "name:en": "Red&White",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.564407,
+          56.8838843
+        ]
+      },
+      "id": "node/4227724854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4227724857",
+        "amenity": "fast_food",
+        "name": "Суши WOK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5755739,
+          56.8848033
+        ]
+      },
+      "id": "node/4227724857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4229342364",
+        "amenity": "bar",
+        "name": "Live beer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5817036,
+          56.8852838
+        ]
+      },
+      "id": "node/4229342364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4229342366",
+        "name": "Красное&Белое",
+        "name:ru": "Красное&Белое",
+        "operator": "Красное&Белое",
+        "shop": "alcohol",
+        "website": "https://krasnoeibeloe.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5708253,
+          56.8844776
+        ]
+      },
+      "id": "node/4229342366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4245490805",
+        "name": "Тагильское пиво",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5757202,
+          56.8842935
+        ]
+      },
+      "id": "node/4245490805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4259770552",
+        "name": "Пивная лавка",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5714685,
+          56.8845309
+        ]
+      },
+      "id": "node/4259770552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4271009890",
+        "amenity": "bar",
+        "name": "Бункер"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5907938,
+          56.8854437
+        ]
+      },
+      "id": "node/4271009890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4271009893",
+        "alt_name": "Суши",
+        "amenity": "fast_food",
+        "name": "Точка"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.577059,
+          56.8843799
+        ]
+      },
+      "id": "node/4271009893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4281443547",
+        "amenity": "fast_food",
+        "name": "Джан"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5972058,
+          56.8895108
+        ]
+      },
+      "id": "node/4281443547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4281443555",
+        "name": "Семь пятниц",
+        "name:ru": "Семь пятниц",
+        "shop": "alcohol",
+        "website": "http://7пятниц.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5797743,
+          56.884466
+        ]
+      },
+      "id": "node/4281443555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4287062841",
+        "name": "Пивной остров",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5763644,
+          56.8849265
+        ]
+      },
+      "id": "node/4287062841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295539434",
+        "name": "Parim",
+        "shop": "tobacco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.56932,
+          56.883747
+        ]
+      },
+      "id": "node/4295539434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4312275208",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&Ко",
+        "opening_hours": "Mo-Su 8:30-23:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5636746,
+          56.8857209
+        ]
+      },
+      "id": "node/4312275208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476353446",
+        "name": "Ильич",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5974769,
+          56.8891769
+        ]
+      },
+      "id": "node/4476353446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476353447",
+        "name": "Косулинская пивоварня",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6149936,
+          56.887175
+        ]
+      },
+      "id": "node/4476353447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476353448",
+        "amenity": "pub",
+        "name": "Пивбар"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5965212,
+          56.8883946
+        ]
+      },
+      "id": "node/4476353448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4544487125",
+        "name": "Магнум",
+        "shop": "alcohol",
+        "website": "http://alcomarket.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5896976,
+          56.8853448
+        ]
+      },
+      "id": "node/4544487125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4551741869",
+        "name": "Красное & Белое",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5982238,
+          56.8906499
+        ]
+      },
+      "id": "node/4551741869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4551741874",
+        "amenity": "fast_food",
+        "name": "Мозаика"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5945607,
+          56.8919876
+        ]
+      },
+      "id": "node/4551741874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4670477675",
+        "name": "Лион",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5714142,
+          56.8839114
+        ]
+      },
+      "id": "node/4670477675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4782706639",
+        "name": "Коасное и Белое",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6287094,
+          56.8932058
+        ]
+      },
+      "id": "node/4782706639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5077096345",
+        "name": "КрасноеБелое",
+        "name:ru": "КрасноеБелое",
+        "shop": "wine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5701727,
+          56.8828904
+        ]
+      },
+      "id": "node/5077096345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5151927017",
+        "amenity": "fast_food",
+        "brand": "Бургер Кинг",
+        "brand:en": "Burger King",
+        "brand:ru": "Бургер Кинг",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "ru:Burger King",
+        "contact:email": "FeedBack@burgerking.ru",
+        "contact:phone": "+7 495 5445000",
+        "contact:website": "https://burgerkingrus.ru/",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Бургер Кинг",
+        "name:en": "Burger King",
+        "name:ru": "Бургер Кинг",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "operator": "БУРГЕР РУС",
+        "operator:phone": "+7 495 5445000",
+        "ref": "162",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.613684,
+          56.861908
+        ]
+      },
+      "id": "node/5151927017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5383235091",
+        "name": "Красное&Белое",
+        "name:ru": "Красное&Белое",
+        "operator": "Красное&Белое",
+        "shop": "alcohol",
+        "website": "https://krasnoeibeloe.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5852222,
+          56.8865887
+        ]
+      },
+      "id": "node/5383235091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5383242365",
+        "name": "Beerloga",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6164056,
+          56.886352
+        ]
+      },
+      "id": "node/5383242365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5451567834",
+        "addr:housenumber": "31А",
+        "addr:street": "проспект Космонавтов",
+        "amenity": "fast_food",
+        "brand": "Додо Пицца",
+        "brand:en": "Dodo Pizza",
+        "brand:ru": "Додо Пицца",
+        "brand:wikidata": "Q61949318",
+        "brand:wikipedia": "ru:Додо Пицца",
+        "cuisine": "pizza",
+        "diet:kosher": "no",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "name": "Додо Пицца",
+        "name:en": "Dodo Pizza",
+        "name:ru": "Додо Пицца",
+        "opening_hours": "Mo-Su 09:00-24:00",
+        "phone": "+7 800 333-00-60",
+        "takeaway": "yes",
+        "website": "https://dodopizza.ru/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.61364,
+          56.8975889
+        ]
+      },
+      "id": "node/5451567834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5526109303",
+        "name": "Лион",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6092106,
+          56.8923336
+        ]
+      },
+      "id": "node/5526109303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5554162459",
+        "name": "Красное & Белое",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5770479,
+          56.8872776
+        ]
+      },
+      "id": "node/5554162459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5590613998",
+        "name": "Красное&Белое",
+        "name:ru": "Красное&Белое",
+        "operator": "Красное&Белое",
+        "shop": "alcohol",
+        "website": "https://krasnoeibeloe.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5893233,
+          56.8938422
+        ]
+      },
+      "id": "node/5590613998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5590814615",
+        "name": "Красное&Белое",
+        "name:ru": "Красное&Белое",
+        "operator": "Красное&Белое",
+        "shop": "alcohol",
+        "website": "https://krasnoeibeloe.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6080666,
+          56.8952299
+        ]
+      },
+      "id": "node/5590814615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5602766621",
+        "name": "Пивная лавка",
+        "opening_hours": "24/7",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6130378,
+          56.9057872
+        ]
+      },
+      "id": "node/5602766621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6495041190",
+        "amenity": "fast_food",
+        "contact:email": "FeedBack@burgerking.ru",
+        "contact:phone": "+7 495 5445000",
+        "contact:website": "https://burgerkingrus.ru/",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Бургер Кинг",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6315462,
+          56.8817272
+        ]
+      },
+      "id": "node/6495041190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6536736966",
+        "amenity": "fast_food",
+        "brand": "Coffee Like",
+        "brand:wikidata": "Q55662627",
+        "contact:email": "hotline@coffee-like.com",
+        "contact:phone": "+7 341 2908292;+7 800 3334130",
+        "contact:website": "https://coffee-like.com/",
+        "cuisine": "coffee_shop",
+        "name": "Coffee Like",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-22:00; Su 10:00-22:00",
+        "operator": "Попов Алексей Юрьевич",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6125853,
+          56.8887231
+        ]
+      },
+      "id": "node/6536736966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6684408685",
+        "addr:housenumber": "35",
+        "addr:street": "улица Баумана",
+        "name": "красно белое",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "shop": "wine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6332459,
+          56.8945488
+        ]
+      },
+      "id": "node/6684408685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6684408985",
+        "name": "красно белое",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "shop": "wine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6289737,
+          56.8932663
+        ]
+      },
+      "id": "node/6684408985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6684446593",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&ко",
+        "opening_hours": "Mo-Su 8:30-01:00",
+        "shop": "beverages"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6412745,
+          56.8965381
+        ]
+      },
+      "id": "node/6684446593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6684714986",
+        "name": "Красно белое",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.614377,
+          56.8894073
+        ]
+      },
+      "id": "node/6684714986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7710154749",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "contact:email": "FeedBack@burgerking.ru",
+        "contact:phone": "+7 495 5445000",
+        "contact:vk": "burgerking",
+        "contact:website": "https://burgerkingrus.ru/",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Бургер Кинг",
+        "name:en": "Burger King",
+        "name:ru": "Бургер Кинг",
+        "opening_hours": "Mo 10:00-01:00, Tu-Su 08:00-01:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5838919,
+          56.8859951
+        ]
+      },
+      "id": "node/7710154749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7746334352",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "en:KFC",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6120892,
+          56.9195498
+        ]
+      },
+      "id": "node/7746334352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7836633669",
+        "addr:city": "Екатеринбург",
+        "addr:housenumber": "32",
+        "addr:postcode": "620088",
+        "addr:street": "бульвар Культуры",
+        "amenity": "bar",
+        "name": "Ёпрст bar loft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5792973,
+          56.8908389
+        ]
+      },
+      "id": "node/7836633669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7973334103",
+        "amenity": "fast_food",
+        "contact:email": "FeedBack@burgerking.ru",
+        "contact:phone": "+7 495 5445000",
+        "contact:website": "https://burgerkingrus.ru/",
+        "cuisine": "burger",
+        "name": "Бургер Кинг",
+        "name:en": "Burger King",
+        "name:ru": "Бургер Кинг",
+        "opening_hours": "Mo-Su 10:00-22:50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6131424,
+          56.9001217
+        ]
+      },
+      "id": "node/7973334103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7973340793",
+        "amenity": "fast_food",
+        "name:en": "Pizza Mia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6132466,
+          56.9000692
+        ]
+      },
+      "id": "node/7973340793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7973340804",
+        "addr:housenumber": "41",
+        "addr:street": "проспект Космонавтов",
+        "amenity": "fast_food",
+        "diet:vegetarian": "no",
+        "name": "КФС",
+        "name:en": "KFC",
+        "name:ru": "KFC",
+        "opening_hours": "24/7",
+        "phone": "+74952408424",
+        "website": "https://www.kfc.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6132604,
+          56.899218
+        ]
+      },
+      "id": "node/7973340804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8116599334",
+        "brand": "Бристоль",
+        "brand:wikidata": "Q59155583",
+        "brand:wikipedia": "ru:Бристоль (сеть магазинов)",
+        "name": "Бристоль",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5866566,
+          56.8879175
+        ]
+      },
+      "id": "node/8116599334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8285823378",
+        "amenity": "fast_food",
+        "brand:en": "McDonald's",
+        "brand:ru": "Макдоналдс",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "cuisine": "burger",
+        "name": "Макдоналдс",
+        "name:en": "Vkusno i tochka",
+        "name:ru": "Вкусно — и точка",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6115048,
+          56.917197
+        ]
+      },
+      "id": "node/8285823378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8521166039",
+        "amenity": "fast_food",
+        "contact:phone": "+7 343 2130213;+7 900 2130513",
+        "contact:website": "https://taplink.cc/za_lyulya",
+        "name": "За Люля",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "operator": "За Люля"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.612106,
+          56.8880583
+        ]
+      },
+      "id": "node/8521166039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8635410374",
+        "contact:email": "117@magnumvino.ru",
+        "contact:phone": "+7 800 2224043;+7 922 7050097",
+        "contact:twitter": "https://twitter.com/@mavt_magnum",
+        "contact:vk": "https://vk.com/mavt_magnum",
+        "contact:website": "https://magnumvino.ru/",
+        "name": "Магнум-винотека",
+        "opening_hours": "Mo-Su 10:00-22:55",
+        "operator": "СПЛИТ",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6042337,
+          56.8883572
+        ]
+      },
+      "id": "node/8635410374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8752542286",
+        "contact:email": "aquamill@mail.ru",
+        "contact:phone": "+7 343 2000519;+7 343 2902394;+7 950 6585348",
+        "contact:website": "https://xn----7sbajkc4brnc1b3h.xn--p1ai/",
+        "name": "Вода Аура",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "shop": "beverages"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.622263,
+          56.882118
+        ]
+      },
+      "id": "node/8752542286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8760472468",
+        "addr:city": "Екатеринбург",
+        "addr:housenumber": "6",
+        "addr:postcode": "620039",
+        "addr:street": "улица 22-го Партсъезда",
+        "amenity": "pub",
+        "brewery": "Косулинская_пивоварня",
+        "name": "Косулинская пивоварня",
+        "website": "https://kosulinobeer.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5801191,
+          56.8868719
+        ]
+      },
+      "id": "node/8760472468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8763062897",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5804086,
+          56.8873705
+        ]
+      },
+      "id": "node/8763062897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8763267553",
+        "drink": "beer",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5800871,
+          56.8868467
+        ]
+      },
+      "id": "node/8763267553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8784711596",
+        "amenity": "fast_food",
+        "drive_through": "no",
+        "name": "Столовая электродепо",
+        "phone": "(343) 329-30-89"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.628931,
+          56.9131012
+        ]
+      },
+      "id": "node/8784711596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8839178136",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&ко",
+        "opening_hours": "Mo-Su 8:30-01:00",
+        "shop": "alcohol",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6042338,
+          56.8972719
+        ]
+      },
+      "id": "node/8839178136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8839178141",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&ко",
+        "opening_hours": "Mo-Su 8:30-01:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.587891,
+          56.8852112
+        ]
+      },
+      "id": "node/8839178141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8839178153",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&ко",
+        "opening_hours": "24/7",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5930837,
+          56.8985156
+        ]
+      },
+      "id": "node/8839178153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8938885827",
+        "amenity": "fast_food",
+        "brand": "Бургер Кинг",
+        "brand:en": "Burger King",
+        "brand:ru": "Бургер Кинг",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "contact:email": "FeedBack@burgerking.ru",
+        "contact:phone": "+7 495 5445000",
+        "contact:website": "https://burgerkingrus.ru/",
+        "cuisine": "burger",
+        "name": "Бургер Кинг",
+        "name:en": "Burger King",
+        "name:ru": "Бургер Кинг",
+        "opening_hours": "Mo-Su 10:00-21:55",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6136,
+          56.9155
+        ]
+      },
+      "id": "node/8938885827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8938891873",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&ко",
+        "opening_hours": "24/7",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6265309,
+          56.896358
+        ]
+      },
+      "id": "node/8938891873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8938891878",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&ко",
+        "opening_hours": "Mo-Su 8:30-01:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5997517,
+          56.892552
+        ]
+      },
+      "id": "node/8938891878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8938891879",
+        "contact:phone": "+7 343 3020424;+7 800 3332933",
+        "contact:website": "https://www.pivko24.ru/",
+        "name": "Пив&ко",
+        "opening_hours": "24/7",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5706284,
+          56.8909227
+        ]
+      },
+      "id": "node/8938891879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9069810998",
+        "addr:city": "Екатеринбург",
+        "addr:housenumber": "8В",
+        "addr:street": "улица Новаторов",
+        "brand": "Красное & Белое",
+        "brand:en": "Red&White",
+        "brand:wikidata": "Q24933790",
+        "brand:wikipedia": "en:Krasnoe & Beloe",
+        "name": "Красное & Белое",
+        "name:en": "Red&White",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6008263,
+          56.9091568
+        ]
+      },
+      "id": "node/9069810998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9112327317",
+        "amenity": "fast_food",
+        "brand": "Суши Wok",
+        "brand:en": "Sushi Wok",
+        "brand:ru": "Суши Wok",
+        "brand:wikidata": "Q25444754",
+        "brand:wikipedia": "uk:Суши Wok (мережа магазинів)",
+        "cuisine": "asian",
+        "name": "Суши Wok",
+        "name:en": "Sushi Wok",
+        "name:ru": "Суши Wok",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "phone": "+7 343 2241111",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6410674,
+          56.8964666
+        ]
+      },
+      "id": "node/9112327317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9267286340",
+        "amenity": "fast_food",
+        "brand": "Крошка Картошка",
+        "brand:en": "Kroshka Kartoshka",
+        "brand:ru": "Крошка Картошка",
+        "brand:wikidata": "Q4241838",
+        "brand:wikipedia": "ru:Крошка Картошка",
+        "contact:phone": "+7 912 2414868",
+        "contact:website": "https://www.kartoshka.com/",
+        "cuisine": "potato",
+        "level": "2",
+        "name": "Крошка Картошка",
+        "name:en": "Kroshka Kartoshka",
+        "name:ru": "Крошка Картошка",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6138428,
+          56.9154662
+        ]
+      },
+      "id": "node/9267286340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9833313920",
+        "name": "Красное & Белое",
+        "opening_hours": "Mo-Su 09:00-22:05",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6117081,
+          56.9004501
+        ]
+      },
+      "id": "node/9833313920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9833313922",
+        "amenity": "fast_food",
+        "name": "Шаурма 24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6111298,
+          56.9000662
+        ]
+      },
+      "id": "node/9833313922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9833331333",
+        "amenity": "fast_food",
+        "name": "Лепёшка из тандыра"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6134632,
+          56.9010687
+        ]
+      },
+      "id": "node/9833331333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9833340918",
+        "brand": "Бристоль",
+        "brand:wikidata": "Q59155583",
+        "name": "Бристоль",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.61247,
+          56.9029815
+        ]
+      },
+      "id": "node/9833340918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9833340920",
+        "amenity": "fast_food",
+        "name": "Тандыр"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6112817,
+          56.9001313
+        ]
+      },
+      "id": "node/9833340920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9840863117",
+        "name": "Красное & Белое",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6127554,
+          56.9022104
+        ]
+      },
+      "id": "node/9840863117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9843615719",
+        "amenity": "bar",
+        "name": "Лето",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6056791,
+          56.8968013
+        ]
+      },
+      "id": "node/9843615719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9843615817",
+        "amenity": "fast_food",
+        "name": "Вкус Востока"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6063314,
+          56.8965737
+        ]
+      },
+      "id": "node/9843615817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9851567517",
+        "amenity": "bar",
+        "cuisine": "seafood",
+        "name": "Beerhall",
+        "name:ru": "BeerHall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.618128,
+          56.8960705
+        ]
+      },
+      "id": "node/9851567517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9934198940",
+        "name": "Пив&ко",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.600307,
+          56.8923557
+        ]
+      },
+      "id": "node/9934198940"
+    }
+  ]
+}
