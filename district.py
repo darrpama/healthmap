@@ -4,6 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 import matplotlib.pyplot as plt
 import requests
+import json
 
 
 class Model:
@@ -26,15 +27,24 @@ class Model:
     def prepare_data(self, json_data):
         X = []
         y = []
+        positive_weight = 0;
+        negative_weight = 0;
         for city in json_data:
             for district in city['districts']:
+                positive_density = self.calculate_positive_density(district['total_positive_amount'], district['area'])
+                negative_density = self.calculate_negative_density(district['total_negative_amount'], district['area'])
                 features = [
-                    district['area'],
-                    district['total_positive_amount'],
-                    district['total_negative_amount'],
+                    positive_density,
+                    negative_density,
+                    positive_density - negative_density,
                     district['edu_negative_amount']
                 ]
                 X.append(features)
+                if (district['total_positive_amount'] - district['total_negative_amount'] >= district['total_negative_amount'] * 0.5):
+                    positive_weight = 0.6
+                if (district['edu_negative_amount'] > 0):
+                    negative_weight = 0.4
+                y.append(district['total_positive_amount'] * (1 + positive_weight) - district['total_negative_amount'] * (1 + negative_weight))
         
         return X, y
 
@@ -127,25 +137,40 @@ response = requests.get('api/feature/district')
 json_data = response.json()
 
 # Prepare the data and extract the features X
-X = model.prepare_data(json_data)
-
-y = np.array([0.8, 0.6, 0.9, 0.8, 0.6, 0.9, 0.8, 0.6, 0.9, 0.8, 0.6, 0.9])  # Target variable
+X, y = model.prepare_data(json_data)
 
 # Train the model
 model.train_model(X, y)
 
-# # Save the trained model
-# model.save_model('trained_model.pkl')
 
-# # Load the saved model
-# model.load_model('trained_model.pkl')
+# Save the trained model coefficients to JSON
+model_params = {
+    'coef_': model.model.coef_.tolist(),
+    'intercept_': model.model.intercept_.tolist(),
+    'scaler_params': {
+        'scale_': model.scaler.scale_.tolist(),
+        'min_': model.scaler.min_.tolist(),
+        'data_min_': model.scaler.data_min_.tolist(),
+        'data_max_': model.scaler.data_max_.tolist(),
+        'data_range_': model.scaler.data_range_.tolist(),
+    }
+}
 
-# Use the loaded model for predictions
-X_new = np.array([[120, 6, 12, 2.5], [180, 8, 18, 3.5]])
-predictions = model.predict(X_new)
-print("Predictions:", predictions)
+# Convert model_params to JSON string
+model_params_json = json.dumps(model_params)
 
-# Use the loaded model for evaluation and plotting
-X_test = np.array([[130, 6.5, 11, 2.8], [170, 7.5, 17, 3.2],[140, 4.5, 13, 1.8], [160, 7.5, 17, 3.2]])
-y_test = np.array([0.7, 0.8, 0.7, 0.8])
-model.plot_evaluation(X_test, y_test)
+# Make a POST request to the API endpoint to send the model coefficients
+post_response = requests.post('api/model/coefficients', data=model_params_json)
+
+# Check the response status code
+if post_response.status_code == 200:
+    print("Model coefficients posted successfully!")
+else:
+    print("Failed to post model coefficients.")
+
+# # Use the loaded model for predictions
+# predictions = model.predict(X_new)
+# print("Predictions:", predictions)
+
+# # Use the loaded model for evaluation and plotting
+# model.plot_evaluation(X_test, y_test)
